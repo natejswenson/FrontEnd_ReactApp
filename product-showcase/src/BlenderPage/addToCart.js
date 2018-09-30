@@ -5,16 +5,18 @@ class ADDbtn extends React.Component {
     var obj =  require('./products.json')
     if(obj.Blender.inventoryCode === '1') {
       return (
-        <div><button class="btn" id="myBtn">ADD TO CART</button></div>
+        <div id= "true"><button class="btn" id="myBtn">ADD TO CART</button></div>
       );
     } else {
       return (
-        <div>
+        <div id ="false">
           <h5>OUT OF STOCK</h5>
         </div>
+    
       );
     }
   }
+  
 }
 
 export default ADDbtn;

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+							<html>
+                            <head>
+                            <title>TestCafe HTML Report</title>
+                            <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js'></script>
+                            <meta name='viewport' content='width=device-width, initial-scale=1'>
+                            <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+                            <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+                            <script>
+                            var config = {             type: 'pie',             data: {                 datasets: [{                     data: [                         '13','0'                     ],                     backgroundColor: [                         'Green',                         'Red'                     ]                 }],                 labels: [                     'Pass',                     'Failed'                 ]             },             options: {                 responsive: true             }         };          window.onload = function() {             var ctx = document.getElementById('myChart').getContext('2d');             window.myPie = new Chart(ctx, config);         }; 
+                            </script>
+                            </head>
+                            <body>
+                            <div class='container-fluid'>
+                                <div class="row">
+                            <div class="col-sm-8">
+                                  <div>
+                                  <canvas id='myChart' height='80' ></canvas>
+                                  </div>
+                            </div>
+                            <div class="col-sm-2" style=" padding-top:80px">
+                                <table class='table table-bordered' >
+                                <tr>
+                                    <td><b>Passed</b></td>
+                                    <td> 13 </td>
+                                </tr>
+                                <tr>
+                                    <td> <b>Failed </b></td>
+                                    <td> 0 </td>
+                                </tr>
+                                <tr>
+                                    <td> <b>Skipped </b></td>
+                                    <td> 0 </td>
+                                </tr>
+                                <tr class='info'>
+                                    <td> <b>Total </b></td>
+                                    <td> 13 </td>
+                                </tr>
+                                </table>
+                            </div>
+                          </div>
+                            <hr/>
+                            
+                            
+                            <h4>Running tests in: <b>Chrome 69.0.3497 / Mac OS X 10.13.5</b>                      <span> Total Time: 10s</span></h4>
+                            <hr/><br/>
+                                <h3 style='font-color:red'> Test details</h3>
+                                <table class='table table-bordered table-hover'>
+                                <thead>
+                                <tr>
+                                    <th> Fixture Name </th>
+                                    <th> Test Name </th>
+                                    <th> Status </th>
+                                    <th> Time </th>
+                                </tr> </thead><tbody><tr>
+                                <td>Product Page Tests</td>
+                                <td>ADD2Cart Component</td>
+                                <td style='background-color:green' >Passed</td>
+                                <td style='padding-right:0px;border-right:0px;'>2s</td>
+                            </tr><tr>
+                                <td>Product Page Tests</td>
+                                <td>Page Title Component</td>
+                                <td style='background-color:green' >Passed</td>
+                                <td style='padding-right:0px;border-right:0px;'>1s</td>
+                            </tr><tr>
+                                <td>Product Page Tests</td>
+                                <td>Price Component</td>
+                                <td style='background-color:green' >Passed</td>
+                                <td style='padding-right:0px;border-right:0px;'>1s</td>
+                            </tr><tr>
+                                <td>Product Page Tests</td>
+                                <td>Offer 1 Component</td>
+                                <td style='background-color:green' >Passed</td>
+                                <td style='padding-right:0px;border-right:0px;'>1s</td>
+                            </tr><tr>
+                                <td>Product Page Tests</td>
+                                <td>ShareBTN Component</td>
+                                <td style='background-color:green' >Passed</td>
+                                <td style='padding-right:0px;border-right:0px;'>1s</td>
+                            </tr><tr>
+                                <td>Product Page Tests</td>
+                                <td>Add2List Component</td>
+                                <td style='background-color:green' >Passed</td>
+                                <td style='padding-right:0px;border-right:0px;'>1s</td>
+                            </tr><tr>
+                                <td>Product Page Tests</td>
+                                <td>Offer 2 Component</td>
+                                <td style='background-color:green' >Passed</td>
+                                <td style='padding-right:0px;border-right:0px;'>1s</td>
+                            </tr><tr>
+                                <td>Product Page Tests</td>
+                                <td>Add2Registry Component</td>
+                                <td style='background-color:green' >Passed</td>
+                                <td style='padding-right:0px;border-right:0px;'>1s</td>
+                            </tr><tr>
+                                <td>Product Page Tests</td>
+                                <td>Return Policy Component</td>
+                                <td style='background-color:green' >Passed</td>
+                                <td style='padding-right:0px;border-right:0px;'>1s</td>
+                            </tr><tr>
+                                <td>Product Page Tests</td>
+                                <td>ReturnText Componentt</td>
+                                <td style='background-color:green' >Passed</td>
+                                <td style='padding-right:0px;border-right:0px;'>1s</td>
+                            </tr><tr>
+                                <td>Product Page Tests</td>
+                                <td>Pro Component</td>
+                                <td style='background-color:green' >Passed</td>
+                                <td style='padding-right:0px;border-right:0px;'>1s</td>
+                            </tr><tr>
+                                <td>Product Page Tests</td>
+                                <td>Top Good Review Component</td>
+                                <td style='background-color:green' >Passed</td>
+                                <td style='padding-right:0px;border-right:0px;'>1s</td>
+                            </tr><tr>
+                                <td>Product Page Tests</td>
+                                <td>StarRating COmponent</td>
+                                <td style='background-color:green' >Passed</td>
+                                <td style='padding-right:0px;border-right:0px;'>1s</td>
+                            </tr></tbody></table><hr /> <br /><h3 style='font-color:red'> Error details</h3><br /><table class='table table-bordered table-hover'><thead>
+                                <tr>
+                                    <th> Fixture Name </th>
+                                    <th> Test Name </th>
+                                    <th> Error </th>
+                                </tr></thead><tbody></tbody></table>
+                           </body>
+                         </html>
