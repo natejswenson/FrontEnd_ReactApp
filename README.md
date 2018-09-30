@@ -1,4 +1,6 @@
 # FrontEnd React App
+Simple product page built using React. 
+
 ## Dependencies
 - "json-loader": "^0.5.7",
 - "react": "^16.5.2",
@@ -18,13 +20,25 @@
 - git clone <this repo>
 - npm install
  - npm start
+ ## Change states of Buttons
+ - modify purchasingChannelCode
+ - Add2Cart Visible (0 || 1)
+ - PickUp in Store Visible (0 || 2)
+ - purchasingChannelCode is located in the products.json file (modified the name) 
  
  ## TestCafe  
-Browser tests. 
-  - ### npm test
+Browser E2E tests. 
+  - npm test
  
  ## Jasmine 
- Used for TDD, in my case i was trying to get the page to look nice and  not realy building munch testable things, but the tests are there when we start recieving data.
+ Used for TDD
+ - Open specRunner.html in any browser.
+ - Or use gulp.
+ 
+ ## Future work
+ - Additional TestCafe E2E tests
+ - Build / Test / Deploy funtionality / Jenkins / CI/CD
+ - API intigration, This could become a fun Full Stack project.
  
 
 
