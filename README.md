@@ -14,15 +14,17 @@
 ## Tools
  - VS Code
  
-## To Run
+## Run the App
 - git clone <this repo>
 - npm install
  - npm start
  
- ## View TestCafe E2E test 
- - (not complete but has become my favorite test framework)
-  - npm test
+ ## TestCafe  
+Browser tests. 
+  - ### npm test
  
- ## to view 
+ ## Jasmine 
+ Used for TDD, in my case i was trying to get the page to look nice and  not realy building munch testable things, but the tests are there when we start recieving data.
  
+
 
