@@ -17,5 +17,9 @@
 ## To Run
 - git clone <this repo>
 - npm install
+<<<<<<< d353cc8147545de1485c4b49152869bd11cd0409
  - npm start
   
+=======
+ - npm start
+>>>>>>> final
