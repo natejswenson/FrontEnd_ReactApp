@@ -1,4 +1,8 @@
+a href="https://github.com/DevExpress/testcafe">
+<img alt="Tested with TestCafe" src="https://img.shields.io/badge/tested%20with-TestCafe-2fa4cf.svg">
+</a>
 # FrontEnd React App
+- Fully Tested Used test cafe
 ## Dependencies
 - "json-loader": "^0.5.7",
 - "react": "^16.5.2",
@@ -14,8 +18,21 @@
 ## Tools
  - VS Code
  
-## To Run
-- git clone <this repo>
-- npm install
- - npm start
+## To Run REACT App
+``` 
+git clone https://github.com/swenson11/FrontEnd_ReactApp.git
+npm install
+npm start
+```
+## To Run TestCafe Tests
+```
+npm test
+```
+This will open chrome browser and execute 13 tests to verify each react componet is functioning correctly.
+
+
+
+
+
+
 
