@@ -3,7 +3,7 @@
 </a>
 
 # FrontEnd React App
-- Fully Tested Used test cafe
+- Fully Tested Using test cafe
 ## Dependencies
 - "json-loader": "^0.5.7",
 - "react": "^16.5.2",
