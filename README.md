@@ -17,9 +17,12 @@
 ## To Run
 - git clone <this repo>
 - npm install
-<<<<<<< d353cc8147545de1485c4b49152869bd11cd0409
  - npm start
-  
-=======
- - npm start
->>>>>>> final
+ 
+ ## View TestCafe E2E test 
+ - (not complete but has become my favorite test framework)
+  - npm test
+ 
+ ## to view 
+ 
+
