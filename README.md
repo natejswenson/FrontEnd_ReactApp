@@ -3,7 +3,7 @@
 </a>
 
 # FrontEnd React App
-- Fully Tested Using test cafe
+- Tested using test cafe
 ## Dependencies
 - "json-loader": "^0.5.7",
 - "react": "^16.5.2",
@@ -16,12 +16,14 @@
 - "testcafe-angular-selectors": "^0.3.0",
 - "testcafe-browser-provider-saucelabs": "^1.3.1",
 - "testcafe-reporter-html-testrail": "^2.0.8"
+
 ## Tools
  - VS Code
  
 ## To Run REACT App
 ``` 
 git clone https://github.com/swenson11/FrontEnd_ReactApp.git
+cd FrontEnd_ReactApp/product-showcase
 npm install
 npm start
 ```
