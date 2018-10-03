@@ -7,9 +7,10 @@ class GF extends Component {
     
         
             return (
-              
-                <div><h5>{obj.Blender.Promotions1}</h5></div>
-              
+              <div class="rightpane-border">
+                <h5>{obj.Blender.Promotions1}</h5>
+                <h5>{obj.Blender.Promotions2}</h5>
+              </div>
             );
           }
         }

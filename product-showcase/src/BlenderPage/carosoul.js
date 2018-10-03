@@ -3,6 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 var obj =  require('./products.json')
 
 export default () => (
+  <div class="leftpane">
   <Carousel autoPlay>
      <div><img src={obj.Blender.PrimaryImage.PI} /></div>
     <div><img src={obj.Blender.AlternateImages.AI1} /></div>
@@ -15,4 +16,5 @@ export default () => (
     
      
   </Carousel>
+  </div>
 );

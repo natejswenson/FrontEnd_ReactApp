@@ -162,6 +162,21 @@ h6 {
   font-size: 16px;
   text-decoration: none;
 }
+  .btn4 {
+    background: white;
+    width: 49%;
+    float:left;
+    padding:6px;
+    border-radius: 3px;
+    border: 1px solid white;
+    border-bottom: 2px white;
+    border-top: 2px solid white;
+    color: white;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
   .btn3 {
     background: lightgray;
     width: 90%;
@@ -209,6 +224,12 @@ h6 {
 }
 .btn:hover {
   background-color: #36bd48
+}
+  .btn2:hover {
+    background-color: #6c726d
+  }
+    .btn3:hover {
+      background-color: #303130
 }
 a {
   color: #551EB0;
